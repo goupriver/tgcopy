@@ -11,12 +11,11 @@ all you need is the curl package and the tar package (to send entire directories
 
 #### HOW TO USE?
 
-##### send one file
-`tgcopy file`
-##### send many files
-`tgcopy file file`
-##### send directory
-`tgcopy directory`
+| Action  | Command |
+| ------------- | ------------- |
+| send one file  | `tgcopy file`  |
+| send many files  | `tgcopy file1 file2 file3` |
+| send directory | `tgcopy directory` |
 
-you can also send directories and files together as many as you want.
-the directory will be compressed using `tar`. the file name will be `timestamp`
+- you can also send directories and files together as many as you want.
+- the directory will be compressed using `tar`. the file name will be `timestamp`
